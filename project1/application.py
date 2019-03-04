@@ -1,3 +1,10 @@
+# @Author: shadabKhan
+# @Date:   Tuesday, February 19th 2019, 10:03:07 am
+# @Last modified by:   shadabKhan
+# @Last modified time: Monday, March 4th 2019, 12:22:05 pm
+
+
+
 import os
 
 from flask import Flask, session
@@ -21,6 +28,6 @@ engine = create_engine(os.getenv("DATABASE_URL"))
 db = scoped_session(sessionmaker(bind=engine))
 
 
-@app.route("/")
+@app.route("/layout/index.html")
 def index():
     return "Project 1: TODO"
