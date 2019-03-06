@@ -2,23 +2,34 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="styles/formStyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title></title>
   </head>
-  <body>
-    <div class="myform">
+  <body id="body">
+    <div class="flex-container">
+      <div>
     <form class="signin" action="index.html" method="post">
       <input type="text" name="username" value="" placeholder="Username">
+      <br>
       <input type="password" name="password" value="" placeholder="Password">
+      <br>
       <button type="button" name="button" >Login</button>
     </form>
+  </div>
+  <div>
     <form class="signup" action="index.html" method="post">
       <input type="text" name="username" value="" placeholder="Username">
+      <br>
       <input type="text" name="email" value="" placeholder="your@email.com">
+      <br>
       <input type="password" name="password" value="" placeholder="password">
+      <br>
       <input type="password" name="confirmPassword" value="" placeholder="confirm password">
+      <br>
       <button type="button" name="button">signup</button>
     </form>
   </div>
+    </div>
   </body>
 </html>

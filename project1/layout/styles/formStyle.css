@@ -1,0 +1,47 @@
+/**
+ * @Author: shadabKhan
+ * @Date:   Monday, March 4th 2019, 5:06:48 pm
+ * @Last modified by:   shadabKhan
+ * @Last modified time: Thursday, March 7th 2019, 12:31:59 am
+ */
+
+body#body{
+  background-color: #424259;
+}
+.flex-container{
+  margin: 20%;
+  display: flex;
+  background-color: #3b3eed;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+@media screen and (min-width : 481px) {
+.flex-container{
+  width:404px;
+}
+}
+@media screen and (max-width: 480px) {
+.flex-container{
+  width: 200px;
+}
+}
+input[type="text"] {
+  border-width: 3px;
+  border-color: #64647f;
+  border-radius: 3px;
+  margin: 2px;
+  font-style: oblique;
+}
+input[type="password"] {
+  margin: 2px;
+  border-width: 3px;
+  border-radius: 3px;
+  border-color: #64647f;
+  font-style: oblique;
+}
+button[type="button"]{
+  border-radius: 3px;
+  margin-left: 60px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
