@@ -2,27 +2,29 @@
  * @Author: shadabKhan
  * @Date:   Monday, March 4th 2019, 5:06:48 pm
  * @Last modified by:   shadabKhan
- * @Last modified time: Thursday, March 7th 2019, 12:31:59 am
+ * @Last modified time: Thursday, March 7th 2019, 4:32:10 pm
  */
 
 body#body{
   background-color: #424259;
 }
 .flex-container{
-  margin: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
   display: flex;
   background-color: #3b3eed;
   flex-wrap: wrap;
   border-radius: 5px;
 }
-@media screen and (min-width : 481px) {
+@media screen and (min-width : 769px) {
 .flex-container{
-  width:404px;
+  width:425px;
 }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 .flex-container{
-  width: 200px;
+  width: 210px;
 }
 }
 input[type="text"] {
@@ -30,16 +32,14 @@ input[type="text"] {
   border-color: #64647f;
   border-radius: 3px;
   margin: 2px;
-  font-style: oblique;
 }
 input[type="password"] {
   margin: 2px;
   border-width: 3px;
   border-radius: 3px;
   border-color: #64647f;
-  font-style: oblique;
 }
-button[type="button"]{
+button[type="submit"]{
   border-radius: 3px;
   margin-left: 60px;
   font-weight: bold;
